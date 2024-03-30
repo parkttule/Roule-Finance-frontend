@@ -1,24 +1,23 @@
 import './App.css';
-//import Header from './layout/Header';
-//import {Route, Routes} from "react-router-dom"
-import Home from './app/home/home_page';
-// import Stake from './app/stake/stake_page';
-// import Play from './app/play/play_page';
-// import Dashboard from './app/dashboard/dashboard_page';
+import Header from './layout/Header';
+import {Route, Routes} from "react-router-dom"
+import Home from './pages/Home';
+import Stake from './pages/Stake';
+import Play from './pages/Play';
+import Dashboard from './pages/Dashboard';
 
 
 function App() {
   return (
     <div className="App">
-      {/* <Header/>
+      <Header/>
       <Routes>
         <Route path="/" element={<Home/>} />
-        <Route path="/stake" element={<Stake/>} />
-        <Route path="/play" element={<Play/>} />
-        <Route path="/dashboard" element={<Dashboard/>} />
+        <Route path="/Stake" element={<Stake/>} />
+        <Route path="/Play" element={<Play/>} />
+        <Route path="/Dashboard" element={<Dashboard/>} />
       </Routes>
-      <Home/> */}
-      <Home/>
+      <Home/> 
     </div>
   );
 }
